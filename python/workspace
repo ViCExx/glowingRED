@@ -31,32 +31,4 @@ print(full_msg)
 
 # makes it look cleaner, imo
 
-wtfiam = "Where am I?"
 
-print(wtfiam[5])
-
-#indexes: 1st character = 0 | -1 at the end
-
-#string slicing
-
-wtfiam = "Where am I?"
-
-print(wtfiam[:5])
-
-# the 5 on the right side, takes the chars from the left to right
-#
-# the 5 on the left side takes the chars from the right to the left.
-
-wtfiam2 = "Where am I?!"
-
-print(wtfiam2[:-2]) # this printed: Where am I
-print(wtfiam2[:1]) # this printed: the W
-print(wtfiam2[4:]) # this printed: e am I?!
-
-# the first char on the left is 0
-# the last char on the right is -1
-
-wtfiam3 = "Where am I?"
-
-#print(wtfiam[-4:]) # this printed: m I?
-print(wtfiam3[6:])
