@@ -1,0 +1,4 @@
+friends = ["jp", "joe", "justin", "chris", "chase", "mason", "andrew", "pat"]
+
+for friend in friends:
+    print(friend)

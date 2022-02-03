@@ -4,6 +4,9 @@ print(msg)
 # the \t is tab
 # the \n is a new line
 
+#If you want to print \ you must put two
+print("\\")
+
 # we can use double quotes and single quotes
 # just depends if you are needing to quote someone, etc.
 # or pull out an operator like the example below.
@@ -32,3 +35,6 @@ print(full_msg)
 # makes it look cleaner, imo
 
 
+#you can also prefix with r which will make a raw string (ignoring escapes except same quote)
+print(r"as raw as I've ever seen. W O W") #only \' is escaped
+#keep in mind the single quotes can't be with the single quote before, unless we escape it out. i prefer going to double to fit the single in, easier for me to read.
