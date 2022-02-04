@@ -12,6 +12,6 @@ else:
 
 #https://stackoverflow.com/questions/15112125/how-to-test-multiple-variables-for-equality-against-a-single-value
 
-# I misunderstood how booleans work; they don't work like an English sentence and guess that you are talking about the same comparison for all names here. You are looking for: if x == 1 or y == 1 or z == 1: they are all evaluated on their own. if 1 in (x,y,z): or better still if 1 in {x,y,z}:
+# I as looking for: if x == 1 or y == 1 or z == 1:they are all evaluated on their own. if 1 in (x,y,z): or better still if 1 in {x,y,z}:
 # I'm sure there is a better way, but my whole goal was to have both drugs and hentai be flagged as the FBImsg - i couldn't get i to do so until I created another variable with "hentai" and changed from and if answer: to if answer in {} or () <-- they both worked.
 # making a note of it, because I spent a good 1-2 hrs working through it.
